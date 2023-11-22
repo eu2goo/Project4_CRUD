@@ -35,7 +35,6 @@
         <br />
         <p id="noticeTitle">
           <%=u.getTitle() %>
-            <%=%>
         </p>
       </div>
       <div id="cardViewBottom">
