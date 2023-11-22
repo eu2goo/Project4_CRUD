@@ -770,8 +770,8 @@ p232_22200296|schema||p232_22200296||UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <schema id="237" parent="1" name="p232_22200296">
-      <IntrospectionTimestamp>2023-11-21.09:10:14</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-20.15:10:14</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-11-23.01:39:40</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-11-22.07:39:40</LocalIntrospectionTimestamp>
       <CollationName>utf8_general_ci</CollationName>
     </schema>
     <user id="238" parent="1" name="p232_22200296"/>
@@ -784,7 +784,7 @@ p232_22200296|schema||p232_22200296||UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </table>
     <column id="241" parent="239" name="seq">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>11</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -850,7 +850,7 @@ p232_22200296|schema||p232_22200296||UPDATE|G</Grants>
       <Position>6</Position>
     </column>
     <column id="255" parent="240" name="noticeId">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>12</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>

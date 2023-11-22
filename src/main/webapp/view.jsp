@@ -31,11 +31,11 @@
   <div id="cardViewBackground">
     <div id="cardView">
       <div id="cardViewTop">
-        <%=id%>
         <%=u.getSeq() %>
         <br />
         <p id="noticeTitle">
           <%=u.getTitle() %>
+            <%=%>
         </p>
       </div>
       <div id="cardViewBottom">

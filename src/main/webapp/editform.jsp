@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <title>Edit Form</title>
 </head>
+<link rel="stylesheet" href="mycss.css" />
 <body>
 
 <%
@@ -16,16 +17,39 @@
 %>
 
 <h1>Edit Form</h1>
-<form action="editpost.jsp" method="post">
-<input type="hidden" name="seq" value="<%=u.getSeq() %>"/>
-<table>
-<tr><td>Title:</td><td><input type="text" name="title" value="<%= u.getTitle()%>"/></td></tr>
-<tr><td>Writer:</td><td><input type="text" name="writer" value="<%= u.getWriter()%>" /></td></tr>
-<tr><td>Content:</td><td><textarea cols="50" rows="5" name="content"><%= u.getContent()%></textarea></td></tr>
-<tr><td colspan="2"><input type="submit" value="Edit Post"/>
-<input type="button" value="Cancel" onclick="history.back()"/></td></tr>
-</table>
-</form>
+<div id="header">
+	<p onclick="location.href=`index.jsp`">22200296</p>
+</div>
+<div id="cardViewBackground">
+	<form id="cardView" action="editpost.jsp" method="post" >
+		<input type="hidden" name="seq" value="<%=u.getSeq() %>"/>
+		<div id="cardViewTop">
+			제목:
+			<input
+					id="noticeTitle"
+					type="text"
+					name="title"
+					value="<%= u.getTitle()%>" />
+		</div>
+		<div id="cardViewBottom">
+            <textarea id="cardViewContext" name="content">
+<%= u.getContent()%>
+             </textarea>
+			<br/>
+
+			작성자:
+			<input type="text" name="writer" value="<%=u.getWriter()%>">
+			<div id="cardButton">
+				<div id="editBtn">
+					<input type="submit" id="cardButtonLeft" value="Submit">
+					<input type="button" id="cardButtonRight" value="Cancel" onclick="history.back()"/>
+				</div>
+				<p>9ms</p>
+			</div>
+		</div>
+	</form>
+</div>
+
 
 </body>
 </html>

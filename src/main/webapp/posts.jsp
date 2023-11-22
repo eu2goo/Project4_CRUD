@@ -41,7 +41,7 @@
 
 <%--		<div id="cardRow">--%>
 			<div class="card">
-				<div class="cardTop">
+				<div class="cardTop" onclick="event.stopPropagation(); location.href='view.jsp?id=${u.getSeq()}'">
 						${u.getSeq()}
 					<br />
 						${u.getTitle()}
@@ -67,6 +67,5 @@
 
 </c:forEach>
 </div>
-<br/><a href="addpostform.jsp">Add New Post</a>
 </body>
 </html>
