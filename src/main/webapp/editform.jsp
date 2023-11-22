@@ -16,7 +16,6 @@
 	BoardVO u=boardDAO.getBoard(Integer.parseInt(id));
 %>
 
-<h1>Edit Form</h1>
 <div id="header">
 	<p onclick="location.href=`index.jsp`">22200296</p>
 </div>

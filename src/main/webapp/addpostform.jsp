@@ -8,7 +8,9 @@
 </head>
 <link rel="stylesheet" href="mycss.css" />
 <body>
-<h1>Add New Post</h1>
+<div id="header">
+    <p onclick="location.href=`index.jsp`">22200296</p>
+</div>
 <div id="cardViewBackground">
 <form action="addpost.jsp" method="post" id="cardView">
     <div id="cardViewTop">

@@ -22,7 +22,7 @@
 	request.setAttribute("list",list);
 %>
 <div id="header">
-	<p onclick="location.href=`index.html`">22200296</p>
+	<p onclick="location.href=`index.jsp`">22200296</p>
 </div>
 <div id="bodyContainer">
 	<h1>Project 4 CRUD Final</h1>
